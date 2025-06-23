@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.half {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top {
+  background-color: #f0f0f0;
+}
+.bottom {
+  background-color: #e0ffe0;
+}
+input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 60%;
+  text-align: center;
+}
+#eur {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
